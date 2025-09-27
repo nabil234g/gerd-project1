@@ -1,6 +1,3 @@
-# GERD Complete Advanced Monitoring System - FULL INTEGRATED VERSION
-# Combined Professional Early Warning System with Government Analytics + Real-Time Monitoring
-# Advanced Satellite Data Integration & Machine Learning with Real-Time Monitoring + Weather Integration
 
 import cv2
 import numpy as np
@@ -25,8 +22,6 @@ import aiohttp
 from concurrent.futures import ThreadPoolExecutor
 import time
 import requests
-
-# Machine Learning imports
 from sklearn.ensemble import RandomForestRegressor, GradientBoostingRegressor, IsolationForest
 from sklearn.preprocessing import StandardScaler, MinMaxScaler
 from sklearn.model_selection import train_test_split
@@ -35,8 +30,6 @@ from sklearn.cluster import KMeans, DBSCAN
 from skimage import filters, segmentation, measure
 from scipy import ndimage, signal
 from scipy.stats import pearsonr
-
-# Plotly imports for real-time dashboard
 import plotly.graph_objects as go
 from plotly.subplots import make_subplots
 import plotly.express as px
